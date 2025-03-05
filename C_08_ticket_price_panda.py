@@ -55,6 +55,7 @@ def string_check(question, valid_ans_list, num_letters):
 
 # currency formatting function
 def currency(x):
+    """Formats numbers as currency ($#.###)"""
     return "{:.2f}".format(x)
 
 
